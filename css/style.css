@@ -269,6 +269,7 @@ img {
   border-radius: 10px;
   box-shadow: var(--box-shadow);
   animation: float 6s ease-in-out infinite;
+  width: 80%;
 }
 
 .scroll-indicator {
