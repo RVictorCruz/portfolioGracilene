@@ -302,6 +302,7 @@ img {
 .sobre-content {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 50px;
   padding: 0 10%;
 }
@@ -309,6 +310,10 @@ img {
 .sobre-image {
   flex: 1;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza a imagem e os destaques */
+  width: 100%;
 }
 
 .profile-img {
@@ -1038,6 +1043,7 @@ img {
   
   .sobre-image {
     margin-bottom: 50px;
+  
   }
   
   .contato-container {
